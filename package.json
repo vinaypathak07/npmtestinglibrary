@@ -1,0 +1,14 @@
+{
+  "name": "npmtestinglibrary",
+  "version": "1.0.0",
+  "description": "A testing javascript library",
+  "author": "Vinay Pathak <nbp.vinay@gmail.com>",
+  "repository": "git@github.com:vinaypathak07/npmtestinglibrary.git",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc --build tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
